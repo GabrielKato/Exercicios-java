@@ -1,0 +1,20 @@
+ 	import java.util.Scanner;
+
+ 	public class Ex4.2 {
+    	public static void main(String[] args) {
+
+ 	float km, m;
+
+ 	Scanner scanner = new Scanner(System.in);
+
+ 	System.out.println("Informe o valor em quilometros: ");
+        km = scanner.nextFloat();
+        
+        m =(km / 1.60934);
+        
+        System.out.println(km + " quilometros em milhas é: " + m);
+    }
+    
+}
+
+ 	

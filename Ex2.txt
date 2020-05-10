@@ -1,0 +1,33 @@
+  
+	import java.util.Scanner;
+
+	public class Ex2 {
+ 	public static void main(String[] args) {
+ 	Scanner scan = new Scanner(System.in);
+       
+ 	String nome;
+        
+        float n1, n2, n3, n4, media;
+
+        Scanner teclado = new Scanner(System.in);
+ 	
+ 	System.out.println("Digite o seu nome: ");
+ 	nome = teclado.next();
+
+ 	System.out.println("Informe a sua 1ª nota: ");
+        n1 = teclado.nextFloat();
+
+ 	System.out.println("Informe a sua 2ª nota: ");
+        n2 = teclado.nextFloat();
+
+ 	System.out.println("Informe a sua 3ª nota: ");
+        n3 = teclado.nextFloat();
+
+ 	System.out.println("Informe a sua 4ª nota: ");
+        n4 = teclado.nextFloat();
+
+ 	media = (n1 + n2 + n3 + n4) /4;
+ 	System.out.println("Seu nome é "+nome+", e a sua média em matemática é: " +media);
+
+    }
+}

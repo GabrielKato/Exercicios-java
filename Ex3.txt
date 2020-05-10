@@ -1,0 +1,56 @@
+ 	import java.util.Scanner;
+
+ 	public class Ex3 {
+    	public static void main(String[] args) {
+ 	
+ 	int n,resultado;
+ 	
+ 	Scanner scanner = new Scanner(System.in);´
+
+ 	System.out.println("Digite um número: ");
+ 	n = scanner.nextInt();
+ 
+ 	resultado = n * 0;
+ 	System.out.println(n + " * 0 = " + resultado);
+
+ 	resultado = n * 1;
+ 	System.out.println(n + " * 1 = " + resultado);
+
+
+ 	resultado = n * 2;
+ 	System.out.println(n + " * 2 = " + resultado);
+
+
+ 	resultado = n * 3;
+ 	System.out.println(n + " * 3 = " + resultado);
+
+
+ 	resultado = n * 4;
+ 	System.out.println(n + " * 4 = " + resultado);
+
+
+ 	resultado = n * 5;
+ 	System.out.println(n + " * 5 = " + resultado);
+
+
+ 	resultado = n * 6;
+ 	System.out.println(n + " * 6 = " + resultado);
+
+
+ 	resultado = n * 7;
+ 	System.out.println(n + " * 7 = " + resultado);
+
+ 	
+ 	resultado = n * 8;
+ 	System.out.println(n + " * 8 = " + resultado);
+
+
+ 	resultado = n * 9;
+ 	System.out.println(n + " * 9 = " + resultado);
+
+
+ 	resultado = n * 10;
+ 	System.out.println(n + " * 10 = " + resultado);
+ 	
+    }
+}

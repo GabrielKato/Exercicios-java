@@ -1,0 +1,42 @@
+ 	import java.util.Scanner;
+
+	public class Ex4 {
+    	public static void main(String[] args) {
+
+ 	float area, base, altura;
+
+ 	Scanner scanner = new Scanner(System.in);
+
+ 	System.out.println("Informe o valor da base do triângulo: ");
+	base = scanner.nextFloat();
+
+ 	System.out.println("Informe o valor da altura do triângulo: ");
+	altura = scanner.nextFloat();
+
+ 	area = (base * altura) /2;
+
+ 	System.out.println("A área do triângulo é: "+area);
+
+ 	float lado;
+
+ 	System.out.println("Informe o valor de um lado do quadrado: ");
+        lado = scanner.nextFloat();
+
+ 	area = lado * lado;
+ 	System.out.println("A área do quadrado é: "+area);
+
+ 	float peso, a, imc;
+
+ 	System.out.println("Informe o peso: ");
+ 	peso = scanner.nextFloat();
+
+ 	System.out.println("Informe a sua altura: ");
+ 	a = scanner.nextFloat();
+
+ 	imc = peso/ (a*a);
+
+ 	System.out.println("O seu índice de massa corporal é: " + imc);
+
+    }
+}
+ 	
